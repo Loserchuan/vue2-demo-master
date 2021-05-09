@@ -1,0 +1,23 @@
+{
+  "id": "1768088",
+  "name": "乐民综合平台数据录入",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "乐民综合平台数据录入",
+  "glyphs": [
+    {
+      "icon_id": "14200315",
+      "name": "medical-care",
+      "font_class": "medical-care",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "14200316",
+      "name": "physical",
+      "font_class": "physical",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    }
+  ]
+}

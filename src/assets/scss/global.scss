@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  vertical-align: top;
+  border: none;
+}
+#app {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+input::-webkit-input-placeholder {
+  color: rgba(195, 195, 195, 0.6);
+  font-size: 14px;
+}
+input {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  display: inline-block;
+}
+input:focus {
+  outline: 0;
+  box-shadow: none;
+}
+button:focus {
+  outline: 0;
+}
+button:active {
+  outline: 0;
+  box-shadow: none;
+}
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 12px;
+}
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 2px 0 16px rgba(195, 195, 195, 0.6);
+  background: rgba(144, 150, 153, 0.1);
+  border-radius: 20px;
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: rgba(220, 220, 220, 0.6);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(220, 220, 220, 0.6);
+}
+label {
+  font-size: 16px;
+}
+// 朴素按钮
+.is-plain {
+  height: 28px;
+  padding: 0 8px;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 12px;
+  &.medium {
+    height: 36px;
+    padding: 0 15px;
+    font-size: 14px;
+  }
+  &.primary {
+    color: #2EA9E6;
+    background: rgba(234, 246, 252, 1);
+    border: 1px solid rgba(177, 222, 244, 1);
+  }
+  &.danger {
+    color: #F56462;
+    background: rgba(253, 239, 239, 1);
+    border: 1px solid rgba(251, 202, 202, 1);
+  }
+  &.success {
+    color: #62C232;
+    background: rgba(98, 194, 50, 0.1);
+    border: 1px solid rgba(98, 194, 50, 0.3);
+  }
+}
+.org-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #F58B22;
+  cursor: pointer;
+}

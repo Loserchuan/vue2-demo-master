@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1587387036535'); /* IE9 */
+  src: url('iconfont.eot?t=1587387036535#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAQYAAsAAAAACBgAAAPKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCfgqDfINVATYCJAMMCwgABCAFhG0HQRseB1FULnpkPwrjNiecPm1brvrMvzrSCRr/IClIPR6+9ns99+2GEGxS9ICsiGRVYzt1aCtkjeLxgML+rbXMAxqV8c/yFaEq+YXsAWdTGs/C1MgqVSFb4fqj3dfLzEJCZ6IE87NoGl55B5fTX4nPA8px7UVtDDAOKKCxF1mBJOh9wIbuZzOBav0Gatt3lxvoysxegbgaBQq6GaXckBkqhfKKiXk4NpSpLJ4Vt3gefD/+WI5KCmWJOXDn+a2Fxffie0pPSk8c9RCs6fTgp5EwC2Rif6Vxp0YUnNVQrQabRsG2WgXfU6nE98JjbvYPj1AQ5UxhLZIm3QXfHaFLY2FIgWufRjkq8Br/iNQ6MMm99bXLLTV91z7bGYz99uCO9PRlR+JXW/x976Dwwd7Xva+waE9KBd6Cg0noNUHpdFw81ODAEVbrmriPcfDo694QQmQG+v28fO45OjcYwPswNp8nO/xTCpGeMZsoEhLajNfOyUFqMqG1b3BkR2X/gZO0CCHBO48fn7Dm8vTW/enmRYAal1yxoFQNDZuWJILj3VLlMidnwMJQwuo/aPF+UGWLhpt4Al3D9bw9XL89PeL4rmpU03mZulv5oPXBIYtdJffsHb5iyWOMnZYuaUwtsbEn5hVj3KLRi4GUAftxgymDg6BHx9VS2ztUvfRIvnmoo56eu1Qcos5W1ySgKNjwjh6PSkSpR6IkK43apLLo3Imi3dVQy5ih+KAyFzkHRm3bXHKZ5Zhqqt/aqaMsUuU7K52VDGV8UXoG5cP5PyPj6/Sz4VrWPF/hEOSDfNPTff0nboUshcD/kJMi/coj/lsCGhpuY6U8mFYXyFNMQerqfL4uX0C9ZEg+nAQoVacb+nEQHs22dPz//Q3Eq59tsbxW/yo5M8C36+MRlJequ4XLpQFUvgFT8DcL8nkA8iZBgkRZEWrMCiTXjOwvUG15KDGtzf6Gi9s6pxMqtSVQqNAHSaVRNJNmoUyNVU+5SlsKV5uxx+k1WrCGyFWY9gIQGn1Dod4HSBr9oJn0C2Xa/UO5xkhQbX+0LFhjPC71tzEpIYv6GSNT5M7WSD/MvKLgPlWc5gTkO2IfeXA6v5iP7CknnmKIfwhmIg4dFxnuYDtK0wJLLmIyMgpFyvl44XzVm0amyKBvG0YUQSykPUMRo5BzXnXRL3z+CgncSyncUFZlvEOYF9WPpkYmHdC9MO9UdivXeA8CM0I4yGGFDNqBnqRWsIDK6nYxYoiRcIC/NDemSq6rcLS8OHu/NVDNHJyiiBRZ7TWykVHp0Elk6t4Mn31GAQAAAA==') format('woff2'),
+  url('iconfont.woff?t=1587387036535') format('woff'),
+  url('iconfont.ttf?t=1587387036535') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1587387036535#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconmedical-care:before {
+  content: "\e602";
+}
+
+.iconphysical:before {
+  content: "\e603";
+}
+
